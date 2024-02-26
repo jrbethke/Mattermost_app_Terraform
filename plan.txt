@@ -1,0 +1,17 @@
+X 1. Create the VPC 
+X 2. Create Internet gateway 
+X 3. Create custom route table 
+X 4. create subnets with CIDR Block 
+    - public and private 
+        * Public will have application server.
+        * Private will have database server. SQL port from application
+X 5. Create Security groups 
+    - ports ssh-22, http-80, https-443, and mySQL-3306 (for DB server only)
+6. Network interface
+7. Elastic IP to network interface
+8. app server and db server are ubuntu servers
+    - app server <application>
+    - DB server <mySQL>
+        * attach an EBS with redundacy, and availability
+9. Cloudtrail for API calls
+10. Network logging
